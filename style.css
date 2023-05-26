@@ -281,7 +281,7 @@ figcaption {
 
 @media (max-width: 768px) {
     .gallery {
-        padding: 2rem 5.5rem;
+        padding: 2rem 5rem;
     }
     /* .gallery__link {
         padding: 0 0.175rem;
