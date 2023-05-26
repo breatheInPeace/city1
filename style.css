@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgba(224,176,255,0.4) ;
+}
+
+h1 {
+    font-weight: 800;
+    padding-top: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(53,56,57,0.6);
+    -webkit-text-stroke: 0.075rem #8b008b;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(225px, 100%), 1fr));
+    gap: 1.5rem;
+    padding: 2rem 5rem;
+}
+
+figure {
+    height: 325px;
+    position: relative;
+    overflow: hidden;
+    outline: 1px solid #9966cc;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 0.325rem;
+    background: rgba(224,255,255,0.4);
+    box-shadow: 2px 2px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+.gallery__img {
+    width: 100%;
+    height: 80%;
+}
+
+.gallery__link {
+    padding: 0 0.225rem;
+    font-size: 0.575rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    border: 1px solid #9966cc;
+    background-color: #cec8ef;
+    box-shadow: 2px 2px 3px rgba(216,191,216, 0.9);
+}
+
+.gallery__link:hover {
+    color: #b2ffff;
+    border-color: #00ffef;
+    background-color: #00b7eb;
+    box-shadow: 2px 2px 4px rgba(119,136,153, 0.9);
+}
+
+ figure::before {
+
+    content: "";
+    inset: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b2ffff ;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(-100%);
+    transition: transform 1s;
+    background-color: rgba(140,146,172,0.3);
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.9);
+}
+
+figure:hover::before {
+    transform: translateY(0%);
+}
+
+figure:nth-child(1)::before,
+figure:nth-child(2)::before,
+figure:nth-child(3)::before,
+figure:nth-child(4)::before,
+figure:nth-child(5)::before,
+figure:nth-child(6)::before,
+figure:nth-child(7)::before,
+figure:nth-child(8)::before,
+figure:nth-child(9)::before,
+figure:nth-child(10)::before,
+figure:nth-child(11)::before,
+figure:nth-child(12)::before,
+figure:nth-child(13)::before,
+figure:nth-child(14)::before,
+figure:nth-child(15)::before,
+figure:nth-child(16)::before,
+figure:nth-child(17)::before,
+figure:nth-child(18)::before,
+figure:nth-child(19)::before,
+figure:nth-child(20)::before,
+figure:nth-child(21)::before,
+figure:nth-child(22)::before,
+figure:nth-child(23)::before,
+figure:nth-child(24)::before,
+figure:nth-child(25)::before {
+    content: "Platonovsky Park";
+}
+
+figure:nth-child(26)::before,
+figure:nth-child(27)::before,
+figure:nth-child(28)::before {
+    content: "Shcheglovsky creek";
+}
+
+figure:nth-child(29)::before,
+figure:nth-child(30)::before,
+figure:nth-child(31)::before,
+figure:nth-child(32)::before,
+figure:nth-child(33)::before,
+figure:nth-child(34)::before,
+figure:nth-child(35)::before,
+figure:nth-child(36)::before,
+figure:nth-child(37)::before,
+figure:nth-child(38)::before,
+figure:nth-child(39)::before,
+figure:nth-child(40)::before,
+figure:nth-child(41)::before,
+figure:nth-child(42)::before,
+figure:nth-child(43)::before,
+figure:nth-child(44)::before,
+figure:nth-child(45)::before,
+figure:nth-child(46)::before,
+figure:nth-child(47)::before,
+figure:nth-child(48)::before,
+figure:nth-child(49)::before,
+figure:nth-child(50)::before,
+figure:nth-child(51)::before,
+figure:nth-child(52)::before,
+figure:nth-child(53)::before,
+figure:nth-child(54)::before,
+figure:nth-child(55)::before,
+figure:nth-child(56)::before,
+figure:nth-child(57)::before,
+figure:nth-child(58)::before{
+    content: "Kremlin, outside and inside the fortress";
+}
+
+figure:nth-child(59)::before{
+    content: "Khvorostukhina street";
+}
+
+figure:nth-child(60)::before{
+    content: "Novomedvensky proezd";
+}
+
+figure:nth-child(61)::before{
+    content: "Shukhova street";
+}
+
+figure:nth-child(62)::before{
+    content: "Kombaynovy Lane";
+}
+
+figure:nth-child(63)::before,
+figure:nth-child(64)::before,
+figure:nth-child(65)::before,
+figure:nth-child(66)::before,
+figure:nth-child(67)::before{
+    content: "Prospekt Lenina, area of Platonovsky Park";
+}
+
+figure:nth-child(68)::before{
+    content: "Beginning of Lozhevaya street";
+}
+
+figure:nth-child(69)::before,
+figure:nth-child(70)::before{
+    content: "Metallurgov street";
+}
+
+figure:nth-child(71)::before,
+figure:nth-child(72)::before,
+figure:nth-child(73)::before{
+    content: "Metallistov street, historical center";
+}
+
+figure:nth-child(74)::before,
+figure:nth-child(75)::before{
+    content: "Lenin sqaure";
+}
+
+figure:nth-child(76)::before,
+figure:nth-child(77)::before,
+figure:nth-child(78)::before,
+figure:nth-child(79)::before,
+figure:nth-child(80)::before,
+figure:nth-child(81)::before{
+    content: "View of Khvorostukhin street";
+}
+
+figure:nth-child(80)::before,
+figure:nth-child(82)::before{
+    content: "Prospekt Lenina, area of Platonovsky Park";
+}
+
+figure:nth-child(83)::before,
+figure:nth-child(84)::before,
+figure:nth-child(85)::before,
+figure:nth-child(86)::before,
+figure:nth-child(87)::before,
+figure:nth-child(88)::before,
+figure:nth-child(89)::before{
+    content: "Upa River";
+}
+
+figure:nth-child(90)::before{
+    content: "Metallurg Stadion";
+}
+
+figure:nth-child(91)::before{
+    content: "The Baltic Sea";
+}
+
+figcaption {
+    padding: 0.25rem .4rem 0 .4rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
+    position: relative;
+    line-height: 0.9rem;
+}
+
+.popup-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7); 
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image span:hover {
+    color: #ff6666;
+    text-shadow: 3px 3px 4px rgba(204, 0, 0, 0.6);
+}
+
+ .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #9966cc;
+    border-radius: 5px;
+    width: 460px;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px rgba(245,245,245,0.3);
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        padding: 2rem 6.5rem;
+    }
+    .popup-image img {
+        width: 350px;
+    }
+    .popup-image span {
+        font-size: 25px; 
+    }
+}
