@@ -66,7 +66,7 @@ figure {
     box-shadow: 2px 2px 4px rgba(119,136,153, 0.9);
 }
 
- figure::before {
+ figure::after {
 
     content: "";
     inset: 0;
@@ -84,150 +84,166 @@ figure {
     text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.9);
 }
 
-figure:hover::before {
+figure:hover::after {
     transform: translateY(0%);
 }
 
-figure:nth-child(1)::before,
-figure:nth-child(2)::before,
-figure:nth-child(3)::before,
-figure:nth-child(4)::before,
-figure:nth-child(5)::before,
-figure:nth-child(6)::before,
-figure:nth-child(7)::before,
-figure:nth-child(8)::before,
-figure:nth-child(9)::before,
-figure:nth-child(10)::before,
-figure:nth-child(11)::before,
-figure:nth-child(12)::before,
-figure:nth-child(13)::before,
-figure:nth-child(14)::before,
-figure:nth-child(15)::before,
-figure:nth-child(16)::before,
-figure:nth-child(17)::before,
-figure:nth-child(18)::before,
-figure:nth-child(19)::before,
-figure:nth-child(20)::before,
-figure:nth-child(21)::before,
-figure:nth-child(22)::before,
-figure:nth-child(23)::before,
-figure:nth-child(24)::before,
-figure:nth-child(25)::before {
+figure:nth-child(1)::after,
+figure:nth-child(2)::after,
+figure:nth-child(3)::after,
+figure:nth-child(4)::after,
+figure:nth-child(5)::after,
+figure:nth-child(6)::after {
+    content: "Kirova street, queit yard";
+}
+
+figure:nth-child(7)::after {
+    content: "Mayskaya street";
+}
+
+figure:nth-child(8)::after {
+    content: "'Maksi' mall, Upa's embankment";
+}
+
+figure:nth-child(9)::after,
+figure:nth-child(10)::after,
+figure:nth-child(11)::after,
+figure:nth-child(12)::after,
+figure:nth-child(13)::after,
+figure:nth-child(14)::after,
+figure:nth-child(15)::after,
+figure:nth-child(16)::after,
+figure:nth-child(17)::after,
+figure:nth-child(18)::after,
+figure:nth-child(19)::after,
+figure:nth-child(20)::after,
+figure:nth-child(21)::after,
+figure:nth-child(22)::after,
+figure:nth-child(23)::after,
+figure:nth-child(24)::after,
+figure:nth-child(25)::after,
+figure:nth-child(26)::after,
+figure:nth-child(27)::after,
+figure:nth-child(28)::after,
+figure:nth-child(29)::after,
+figure:nth-child(30)::after,
+figure:nth-child(31)::after,
+figure:nth-child(32)::after,
+figure:nth-child(33)::after {
     content: "Platonovsky Park";
 }
 
-figure:nth-child(26)::before,
-figure:nth-child(27)::before,
-figure:nth-child(28)::before {
+figure:nth-child(34)::after,
+figure:nth-child(35)::after,
+figure:nth-child(36)::after {
     content: "Shcheglovsky creek";
 }
 
-figure:nth-child(29)::before,
-figure:nth-child(30)::before,
-figure:nth-child(31)::before,
-figure:nth-child(32)::before,
-figure:nth-child(33)::before,
-figure:nth-child(34)::before,
-figure:nth-child(35)::before,
-figure:nth-child(36)::before,
-figure:nth-child(37)::before,
-figure:nth-child(38)::before,
-figure:nth-child(39)::before,
-figure:nth-child(40)::before,
-figure:nth-child(41)::before,
-figure:nth-child(42)::before,
-figure:nth-child(43)::before,
-figure:nth-child(44)::before,
-figure:nth-child(45)::before,
-figure:nth-child(46)::before,
-figure:nth-child(47)::before,
-figure:nth-child(48)::before,
-figure:nth-child(49)::before,
-figure:nth-child(50)::before,
-figure:nth-child(51)::before,
-figure:nth-child(52)::before,
-figure:nth-child(53)::before,
-figure:nth-child(54)::before,
-figure:nth-child(55)::before,
-figure:nth-child(56)::before,
-figure:nth-child(57)::before,
-figure:nth-child(58)::before{
+figure:nth-child(37)::after,
+figure:nth-child(38)::after,
+figure:nth-child(39)::after,
+figure:nth-child(40)::after,
+figure:nth-child(41)::after,
+figure:nth-child(42)::after,
+figure:nth-child(43)::after,
+figure:nth-child(44)::after,
+figure:nth-child(45)::after,
+figure:nth-child(46)::after,
+figure:nth-child(47)::after,
+figure:nth-child(48)::after,
+figure:nth-child(49)::after,
+figure:nth-child(50)::after,
+figure:nth-child(51)::after,
+figure:nth-child(52)::after,
+figure:nth-child(53)::after,
+figure:nth-child(54)::after,
+figure:nth-child(55)::after,
+figure:nth-child(56)::after,
+figure:nth-child(57)::after,
+figure:nth-child(58)::after,
+figure:nth-child(59)::after,
+figure:nth-child(60)::after,
+figure:nth-child(61)::after,
+figure:nth-child(62)::after,
+figure:nth-child(63)::after,
+figure:nth-child(64)::after,
+figure:nth-child(65)::after,
+figure:nth-child(66)::after {
     content: "Kremlin, outside and inside the fortress";
 }
 
-figure:nth-child(59)::before{
+figure:nth-child(67)::after{
     content: "Khvorostukhina street";
 }
 
-figure:nth-child(60)::before{
+figure:nth-child(68)::after{
     content: "Novomedvensky proezd";
 }
 
-figure:nth-child(61)::before{
+figure:nth-child(69)::after{
     content: "Shukhova street";
 }
 
-figure:nth-child(62)::before{
+figure:nth-child(70)::after{
     content: "Kombaynovy Lane";
 }
 
-figure:nth-child(63)::before,
-figure:nth-child(64)::before,
-figure:nth-child(65)::before,
-figure:nth-child(66)::before,
-figure:nth-child(67)::before{
+figure:nth-child(71)::after,
+figure:nth-child(72)::after,
+figure:nth-child(73)::after,
+figure:nth-child(74)::after,
+figure:nth-child(75)::after {
     content: "Prospekt Lenina, area of Platonovsky Park";
 }
 
-figure:nth-child(68)::before{
+figure:nth-child(76)::after{
     content: "Beginning of Lozhevaya street";
 }
 
-figure:nth-child(69)::before,
-figure:nth-child(70)::before{
+figure:nth-child(77)::after,
+figure:nth-child(78)::after{
     content: "Metallurgov street";
 }
 
-figure:nth-child(71)::before,
-figure:nth-child(72)::before,
-figure:nth-child(73)::before{
+figure:nth-child(79)::after,
+figure:nth-child(80)::after,
+figure:nth-child(81)::after{
     content: "Metallistov street, historical center";
 }
 
-figure:nth-child(74)::before,
-figure:nth-child(75)::before{
+figure:nth-child(82)::after,
+figure:nth-child(83)::after{
     content: "Lenin sqaure";
 }
 
-figure:nth-child(76)::before,
-figure:nth-child(77)::before,
-figure:nth-child(78)::before,
-figure:nth-child(79)::before,
-figure:nth-child(80)::before,
-figure:nth-child(81)::before{
+figure:nth-child(84)::after,
+figure:nth-child(85)::after,
+figure:nth-child(86)::after,
+figure:nth-child(87)::after,
+figure:nth-child(88)::after,
+figure:nth-child(89)::after{
     content: "View of Khvorostukhin street";
 }
 
-figure:nth-child(80)::before,
-figure:nth-child(82)::before{
+figure:nth-child(90)::after {
     content: "Prospekt Lenina, area of Platonovsky Park";
 }
 
-figure:nth-child(83)::before,
-figure:nth-child(84)::before,
-figure:nth-child(85)::before,
-figure:nth-child(86)::before,
-figure:nth-child(87)::before,
-figure:nth-child(88)::before,
-figure:nth-child(89)::before{
+figure:nth-child(91)::after,
+figure:nth-child(92)::after,
+figure:nth-child(93)::after,
+figure:nth-child(94)::after,
+figure:nth-child(95)::after,
+figure:nth-child(96)::after,
+figure:nth-child(97)::after {
     content: "Upa River";
 }
 
-figure:nth-child(90)::before{
+figure:nth-child(98)::after {
     content: "Metallurg Stadion";
 }
 
-figure:nth-child(91)::before{
+figure:nth-child(99)::after {
     content: "The Baltic Sea";
 }
 
